@@ -13,6 +13,7 @@ button.onclick = () => {
         name : 'this',
         dttext : textdata.value
     }
+    textdata.value = '';
     socket.send(JSON.stringify(data));
 }
 
