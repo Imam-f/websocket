@@ -1,0 +1,28 @@
+main {
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    min-height: 300px;
+    padding: 0;
+    width: 50%;
+    background-color:blue;
+    list-style-type : none;
+}
+
+li {
+    background-color:yellow;
+    margin:5px;
+    padding: 2px;
+    width: 100% - 5px;
+}
+
+#sender {
+    padding: 5px;
+    background-color:tomato;
+}
+
